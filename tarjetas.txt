@@ -1,4 +1,5 @@
 mastercard
 visa
 rapi
-
+Rapipago
+Pagofacil
