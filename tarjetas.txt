@@ -1,0 +1,5 @@
+Rapipago
+Pagofacil
+MASTERCARD
+Visa
+Amex
