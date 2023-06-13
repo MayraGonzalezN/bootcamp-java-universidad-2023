@@ -1,5 +1,5 @@
-mastercard
-visa
-rapi
 Rapipago
 Pagofacil
+MASTERCARD
+Visa
+Amex
