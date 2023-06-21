@@ -29,7 +29,7 @@
         <!-- link relativo-->
         <a href="./contacto.html">Ir a contacto</a>
         
-        <a>Link 3</a>
+        <a href="#parrofo">Link 3</a>
         <!-- en linea -->
         <span>esto es un texto</span>
         <span>esto es un texto</span>
@@ -51,26 +51,29 @@
             width="100%">
             <thead>
                 <tr>
-                    <th width="40%">COL1</th>
-                    <th width="40%">COL2</th>
-                    <th></th>
+                    <!-- th es solo para las columnas -->>
+                    <th width="33%">COL1</th>
+                    <th width="33%">COL2</th>
+                    <th width="33%">COL3</th>
                 </tr>
             </thead>
             <tbody>
-                <!--fila1-->
+                <!-- fila1 -->
                 <tr>
-                    <td>fila 1 col1</td>
-                    <td>fila 1 col2</td>
+                    <td>1,1</td>
+                    <td>1,2</td>
                     <td>
+                        1,3
                         <img width="10%"
                             src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa57.foxnews.com%2Fmedia2.foxnews.com%2FBrightCove%2F694940094001%2F2018%2F04%2F27%2F931%2F524%2F694940094001_5777352835001_5777348074001-vs.jpg%3Fve%3D1%26tl%3D1&f=1&nofb=1&ipt=8f2879d18eb10b1d1cc910d4d9dd77c3dc4e4d2331b7451ac6ae7cd98b9482e1&ipo=images" 
                             alt="familia simpson">
                     </td>
                 </tr>
-                <!--fila2-->
+                <!-- fila2 -->
                 <tr>
-                    <td colspan="2">fila 1 col1, con columnas</td>
+                    <td colspan="2">2,1 y 2,2 en un mismo espacio</td>
                     <td>
+                        2,3
                         <img width="10%"
                             src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fa57.foxnews.com%2Fmedia2.foxnews.com%2FBrightCove%2F694940094001%2F2018%2F04%2F27%2F931%2F524%2F694940094001_5777352835001_5777348074001-vs.jpg%3Fve%3D1%26tl%3D1&f=1&nofb=1&ipt=8f2879d18eb10b1d1cc910d4d9dd77c3dc4e4d2331b7451ac6ae7cd98b9482e1&ipo=images" 
                             alt="familia simpson">
@@ -78,13 +81,18 @@
                 </tr>
             </tbody>
             <tfoot>
+                <!-- fila3 con el colspan hacemos que esa fila se expandaed -->
                 <tr>
                     <td colspan="3">
-                        footer con 3 columnas
+                        footer con 3,1 - 3,2 - 3,3 en un mismo espacio
                     </td>
                 </tr>
             </tfoot>
         </table>
         <hr>
-    </body>
+
+        <p id="parrofo"> Lorem <b>ipsum</b> dolor sit <i>amet</i>, <sup>consectetur</sup> <sub>adipisicing</sub> elit. Deserunt saepe 
+            atque, impedit hic <em>veritatis</em> commodi quod <del>debitis</del>,  inventore <small>perferendis</small>  error natus, at ipsum dolorum! Accusantium facere unde temporibus quos!</p>
+            <p>--------------------------------------- <marquee behavior="" direction="">NOVEDADES</marquee> ----------------------------------</p>
+        </body>
 </html>
