@@ -1,0 +1,4 @@
+EJERCICIO 2) SUBIR A PRODUCCION EL PROYECTO DESDE LA RAMA front-react
+
+Desde la rama front-react en la que estoy parada debo subir los cambios a produccion y como se usa la rama master para produccion, debo fucionar la rama front-react.
+Esto lo puedo lograr haciendo git merge master desde la rama front-react, luego se hace un "git add ." para agregar los archivos que hayan que subir, un "commit .m" para confirmar los cambios subidos a produccion. Por ultimo hacemos un "git push front-react" para enviar los cambios a la rama  

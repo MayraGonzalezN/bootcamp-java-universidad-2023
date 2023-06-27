@@ -1,0 +1,5 @@
+PAUSAMOS TRABAJO EN COMMIT
+1-Asegurarnos de estar en la branch "custom-navbar"
+2-Hacemos un git stash (que guarda los cambios sin necesidad de realizar un commit)
+-cambiar de branch a master para trabajar en ella
+
